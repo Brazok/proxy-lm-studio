@@ -1,0 +1,15 @@
+authorityKeyIdentifier=keyid,issuer
+basicConstraints=CA:FALSE
+keyUsage = digitalSignature, nonRepudiation, keyEncipherment, dataEncipherment
+extendedKeyUsage = serverAuth
+subjectAltName = @alt_names
+
+[alt_names]
+DNS.1  = lmstudio.ai
+DNS.2  = *.lmstudio.ai
+DNS.3  = api.lmstudio.ai
+DNS.4  = www.lmstudio.ai
+DNS.5  = huggingface.co
+DNS.6  = *.huggingface.co
+DNS.12 = localhost
+IP.1   = 127.0.0.1

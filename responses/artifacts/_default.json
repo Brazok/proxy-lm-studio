@@ -1,0 +1,23 @@
+{
+  "status": "ok",
+  "org": "{{org}}",
+  "model": "{{model}}",
+  "revision": "{{revision}}",
+  "manifest": {
+    "format": "gguf",
+    "files": [
+      {
+        "name": "{{model}}.gguf",
+        "size": 5000000000,
+        "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "download_url": "https://lmstudio.ai/download/{{org}}/{{model}}/{{model}}.gguf"
+      }
+    ],
+    "metadata": {
+      "architecture": "unknown",
+      "parameters": "unknown",
+      "context_length": 4096,
+      "note": "Fallback response - no specific mock for this model"
+    }
+  }
+}

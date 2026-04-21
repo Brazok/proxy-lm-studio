@@ -1,0 +1,62 @@
+[
+    {
+        "type": "file",
+        "oid": "258b415b5df8bd5b036974728f8b94d6ed0c38dd",
+        "size": 1772,
+        "path": ".gitattributes"
+    },
+    {
+        "type": "file",
+        "oid": "476fb18704185f12009e55662708bc27dfa97ab5",
+        "size": 2126,
+        "path": "README.md"
+    },
+    {
+        "type": "file",
+        "oid": "b8ae6f35464c64f57bf21b62a8411e97d78a0832",
+        "size": 18687061664,
+        "lfs": {
+            "oid": "2d550cec247578b941e397f4bd4a0d51296eceb6d28b9c6290cd4105b0da5368",
+            "size": 18687061664,
+            "pointerSize": 136
+        },
+        "xetHash": "1c55a9cc1032124b1aa21f4d11d265e1fa4e17f657c910e3fcd8d71efeff35f2",
+        "path": "gemma-4-31B-it-Q4_K_M.gguf"
+    },
+    {
+        "type": "file",
+        "oid": "14307cfd9dfdc569ce438de93fab6c778b8692bc",
+        "size": 25201483424,
+        "lfs": {
+            "oid": "3baf863a64af732e1fc597baf1c6ea147d4b1c30f5d1203e0f8018ad258bb1ac",
+            "size": 25201483424,
+            "pointerSize": 136
+        },
+        "xetHash": "435235f5e10cbfdd34eac7330e519a34bb5b805a9f9d4c00961c4addf2ac954a",
+        "path": "gemma-4-31B-it-Q6_K.gguf"
+    },
+    {
+        "type": "file",
+        "oid": "d87b868c84e67a706119074fe017257362adeb57",
+        "size": 32635674272,
+        "lfs": {
+            "oid": "b2c838c7128f7b61858986333d4d8283104102b0cca13acdc2e6422e93292f67",
+            "size": 32635674272,
+            "pointerSize": 136
+        },
+        "xetHash": "b41d178f6044656ea0a9940c210f73ff6f0b3ac07c885922244eb6938feb7bdf",
+        "path": "gemma-4-31B-it-Q8_0.gguf"
+    },
+    {
+        "type": "file",
+        "oid": "8fabb2c1d18639355dd1aa7b36440dfb827d238e",
+        "size": 1200725984,
+        "lfs": {
+            "oid": "5e32614a9cdeaf6e30c2f316f0ded1b8edfad1aed1150611fd0b7e0ce36d56af",
+            "size": 1200725984,
+            "pointerSize": 135
+        },
+        "xetHash": "dad459128599043bcdd50e70c3a6a9870b229c23ca0fd40be6ce256a3df917b7",
+        "path": "mmproj-gemma-4-31B-it-BF16.gguf"
+    }
+]

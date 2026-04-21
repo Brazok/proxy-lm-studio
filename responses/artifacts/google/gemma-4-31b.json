@@ -1,0 +1,33 @@
+{
+    "fileTreeIdentifier": "OCHnoLfmue3NT712ncnby+AJ",
+    "sizeBytes": 64732,
+    "sha256Hex": "3f6ebfe64a033e6bdf33490c5a7a5f434c3e79fa7801b4cf88fdb1a9217000c6",
+    "revisionNumber": 1,
+    "downloadCount": 7093,
+    "artifactUrl": "https://lmstudio.ai/models/google/gemma-4-31b",
+    "creatorProfile": {
+        "username": "google"
+    },
+    "manifest": {
+        "type": "model",
+        "owner": "google",
+        "name": "gemma-4-31b",
+        "revision": 1,
+        "dependencies": [
+            {
+                "type": "model",
+                "purpose": "baseModel",
+                "modelKeys": [
+                    "lmstudio-community/gemma-4-31b-it-gguf"
+                ],
+                "sources": [
+                    {
+                        "type": "huggingface",
+                        "user": "lmstudio-community",
+                        "repo": "gemma-4-31B-it-GGUF"
+                    }
+                ]
+            }
+        ]
+    }
+}

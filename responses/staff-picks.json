@@ -1,0 +1,70 @@
+[
+    {
+        "owner": "google",
+        "name": "gemma-4-31b",
+        "revisionNumber": 4,
+        "createdAt": 1775146159561,
+        "updatedAt": 1776542085043,
+        "staffPickedAt": 1775876689579,
+        "description": "31B dense Gemma4 variant. Supports vision input, reasoning, and tool calls.",
+        "likeCount": 105,
+        "forkCount": 4,
+        "downloads": 377955,
+        "isPrivate": false,
+        "metadata": {
+            "type": "llm",
+            "architectures": [
+                "gemma4"
+            ],
+            "compatibilityTypes": [
+                "gguf"
+            ],
+            "paramsStrings": [
+                "31B"
+            ],
+            "minMemoryUsageBytes": 19000000000,
+            "trainedForToolUse": true,
+            "vision": true,
+            "reasoning": true,
+            "fim": false,
+            "contextLengths": [
+                262144
+            ]
+        },
+        "url": "https://lmstudio.ai/models/google/gemma-4-31b"
+    },
+    {
+        "owner": "nvidia",
+        "name": "nemotron-3-nano-4b",
+        "revisionNumber": 1,
+        "createdAt": 1773670750415,
+        "updatedAt": 1773670752858,
+        "staffPickedAt": 1773670963288,
+        "description": "General purpose reasoning and chat model trained by NVIDIA",
+        "likeCount": 9,
+        "forkCount": 2,
+        "downloads": 116584,
+        "isPrivate": false,
+        "metadata": {
+            "type": "llm",
+            "architectures": [
+                "nemotron_h"
+            ],
+            "compatibilityTypes": [
+                "gguf"
+            ],
+            "paramsStrings": [
+                "4B"
+            ],
+            "minMemoryUsageBytes": 4500000000,
+            "trainedForToolUse": true,
+            "vision": false,
+            "reasoning": true,
+            "fim": false,
+            "contextLengths": [
+                262144
+            ]
+        },
+        "url": "https://lmstudio.ai/models/nvidia/nemotron-3-nano-4b"
+    }
+]
