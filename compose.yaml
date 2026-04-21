@@ -1,0 +1,26 @@
+services:
+  proxy:
+    build: .
+    ports:
+      - "443:443"
+    # Nécessaire pour qu'un processus non-root puisse binder le port 443
+    cap_add:
+      - NET_BIND_SERVICE
+    secrets:
+      - server_crt
+      - server_key
+    environment:
+      PROXY_ENV: development
+      PROXY_LOG_LEVEL: DEBUG
+      PROXY_CERT_FILE: /run/secrets/server_crt
+      PROXY_KEY_FILE: /run/secrets/server_key
+    volumes:
+      # Volume en lecture seule pour modifier les réponses mock sans rebuild
+      - ./responses:/app/responses:ro
+    restart: unless-stopped
+
+secrets:
+  server_crt:
+    file: ./certs/server.crt
+  server_key:
+    file: ./certs/server.key
